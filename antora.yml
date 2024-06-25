@@ -1,5 +1,5 @@
 name: conversion
-version: '6.1'
+version: 'dev'
 prerelease: true
 title: Сервис конвертации файлов
 asciidoc:
