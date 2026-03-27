@@ -1,20 +1,10 @@
-:update: conversionservice-shared
-:nolibs:
+:update: conversionservice
+:installer: {dv} File conversion service.msi
 
 = Обновление сервиса
 
 include::webclient:ROOT:partial$excerpts.adoc[tags=what-changed]
 
-[#conditions]
-== Условия обновления
+include::6.1@platform:admin:partial$update-conditions.adoc[]
 
-* Установка новой версии должна выполняться в нерабочее время.
-* Перед установкой обновления ознакомьтесь с xref:ROOT:requirements.adoc[требованиями] для работы модуля.
-* Для корректной работы данной версии сервиса требуется определённая версия модуля {wc}, требования указаны в пункте "xref:ROOT:requirements.adoc[]".
-
-Режим обновления предназначен для установки новой версии сервиса без удаления существующей версии.
-
-[#update]
-== Порядок обновления
-
-include::6.1@platform:admin:partial$update.adoc[tags=bare-minimum]
+include::6.1@platform:admin:partial$update.adoc[]
